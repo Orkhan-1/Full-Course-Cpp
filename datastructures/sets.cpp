@@ -14,10 +14,10 @@ int main() {
     hashSet.insert(30);
     hashSet.insert(10);
     hashSet.insert(20);
+    hashSet.insert(30);
     hashSet.insert(40);
     hashSet.insert(50);
 
-    // Print the elements (unordered)
     std::cout << "Unordered Set Elements: ";
     for (int num : hashSet) {
         std::cout << num << " ";
@@ -35,10 +35,10 @@ int main() {
     orderedSet.insert(30);
     orderedSet.insert(10);
     orderedSet.insert(20);
+    orderedSet.insert(30);
     orderedSet.insert(40);
     orderedSet.insert(50);
 
-    // Print the elements (always in sorted order)
     std::cout << "Ordered Set Elements: ";
     for (int num : orderedSet) {
         std::cout << num << " ";
